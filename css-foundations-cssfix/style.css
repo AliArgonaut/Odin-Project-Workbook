@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bolder{
+    font-size: large;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#smallerbold{
+    font-size: medium;
+    font-weight: 900;
+ }
+
+.confirmbox{
+    color: white;
+    background-color: green;
+    border: 2px solid black;
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancelbox{
+    border: 2px solid black;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px
+}
+
+.boxescontainer{
+    display: flex;
+    gap: 10px;
+}
+
+.parendiv > .child{
+    font-size: 11px;
+    font-weight: 900;
+}
