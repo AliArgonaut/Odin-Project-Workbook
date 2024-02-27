@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    text-align: center;
+}
+
+.container{
+    background-color: dodgerblue;
+    border: 2px solid purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.leftlink>ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.leftlink>ul>li{
+    border: 2px solid black;
+    padding: 12px;
+    color: white;
+    background-color: darkblue;
+}
+
+.logo{
+    font-size: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: magenta;
+}
+
+.rightlink>ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.rightlink>ul>li{
+    border: 2px solid black;
+    padding: 12px;
+    color: white;
+    background-color: darkblue;
+}
