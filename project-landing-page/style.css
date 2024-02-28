@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/* HERO BOX STYLING */
+.headCont{
+    height: 80vh;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+/*logo and links*/
+
+.htop{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo{
+font-size: 24px;
+color: #F9FAF8;
+font-weight: 600;
+width: 300px;
+}
+
+.links>ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E7Eb;
+
+}
+/*content under the links*/
+.hbot{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 20px;
+}
+/*leftcard, the one with words*/
+.hbotleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    gap: 10px;
+}
+.hblheader{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.hbltext{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.hblbutn{
+    width: 90px;
+    text-align: center;
+    padding: 2px;
+    background-color: #3882F6;
+    color: #E5E7Eb;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+/*right card, the image*/
+.hbotright{
+    border: 2px dotted red;
+    width: 50%;
+    height: 100%;
+}
+
