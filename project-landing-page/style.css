@@ -101,10 +101,10 @@ width: 300px;
 
 /*GALLERY STYLING */
 .galCont{
-   height: 500px; 
+   height: 580px; 
    display: flex;
    flex-direction: column;
-   justify-content: space-evenly;
+   justify-content: space-around;
 }
 
 .galtitle{
@@ -152,8 +152,52 @@ font-size: 24px;
 
 /* QUOTE SECTION STYLING */
 .QuoCont{
-    border: 1px dotted red;
-    height: 500px;
+    height: 580px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.openq{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: start;
+    height: 500px;
+}
 
+.openq>img{
+    opacity: .6;
+    width: 200px;
+}
+
+.textcont{
+    width: 950px;
+}
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+   margin: 10px; 
+}
+
+.name{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: 150px;
+}
+.closeq{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.closeq>img{
+    width: 200px;
+    opacity: .6;
 }
