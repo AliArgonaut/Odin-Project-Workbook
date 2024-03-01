@@ -88,8 +88,72 @@ width: 300px;
 
 /*right card, the image*/
 .hbotright{
-    border: 2px dotted red;
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.hero{
+    width: 400px;
+}
+
+/*GALLERY STYLING */
+.galCont{
+   height: 500px; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.galtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-top: 60px;
+}
+
+.galbody{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.galcard{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px #1F2937;
+} 
+
+.galimg{
+    margin-top: 10px;
+}
+.galimg>img{
+    width: 100px;
+}
+.galtext{
+font-style: italic;
+color: #1F2937;
+text-align: center;
+margin-top: 15px;
+font-size: 24px;
+}
+
+/* QUOTE SECTION STYLING */
+.QuoCont{
+    border: 1px dotted red;
+    height: 500px;
+    background-color: #E5E7EB;
+
+}
