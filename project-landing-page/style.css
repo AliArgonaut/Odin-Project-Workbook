@@ -204,19 +204,57 @@ font-size: 24px;
 
 /* CALL TO ACTION STYLING */
 .CallCont{
-    border: 2px dotted red;
     height: 580px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .bluebox{
-    border: 2px solid orange;
-    width: 1300px;
+    width: 1350px;
     height: 250px;
     display: flex;
+    border-radius: 9px;
+    background-color: #3882F6;
 }
 .bluetext{
-    border: 1px dotted blue;
-    width: 50px;
+    width: 60%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    font-size: 24px;
+    color: #E5E7EB;
+    gap: 5px;
+}
+
+.blueheader{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.bluebutton{
+    width: 30%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signupnow{
+    text-align: center;
+    border: 3px solid #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    color: #E5E7EB;
+}
+.FootCont{
+    border: 2px dotted black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
