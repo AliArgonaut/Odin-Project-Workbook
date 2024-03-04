@@ -201,3 +201,22 @@ font-size: 24px;
     width: 200px;
     opacity: .6;
 }
+
+/* CALL TO ACTION STYLING */
+.CallCont{
+    border: 2px dotted red;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bluebox{
+    border: 2px solid orange;
+    width: 1300px;
+    height: 250px;
+    display: flex;
+}
+.bluetext{
+    border: 1px dotted blue;
+    width: 50px;
+}
